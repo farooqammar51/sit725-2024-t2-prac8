@@ -6,8 +6,8 @@ Install Docker on your machine.
 
 # Running the Application with Docker Compose
 Step 1: Clone the Repository:
-git clone https://github.com/your-repository/expense-manager
-cd expense-manager
+git clone https://github.com/farooqammar51/sit725-2024-t2-prac8.git
+cd sit725-2024-t2-prac8
 
 Step 2: Build and Start the Containers
 Build and start all services (client, server, and MongoDB) using Docker Compose:
