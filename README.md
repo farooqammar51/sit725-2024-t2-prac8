@@ -9,6 +9,10 @@ This project consists of a React frontend (using Vite), a Node.js backend (using
 - Sign up on Clerk and obtain your publishable key from the Clerk dashboard.
 - Create a .env.local file in the client/ directory and add the following line: VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 
+# Setup MongoDB Connection
+- Create a .env file in the server/ directory and add your MongoDB URI: MONGODB_URI=mongodb+srv://<your-username>:<your-password>@cluster0.mongodb.net/<your-dbname>?retryWrites=true&w=majority
+- Replace <your-username>, <your-password>, and <your-dbname> with your actual MongoDB credentials and database name.
+- The server will automatically use this URI to connect to MongoDB.
 
 # Running the Application with Docker Compose
 Step 1: Clone the Repository:
